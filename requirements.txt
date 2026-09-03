@@ -1,0 +1,20 @@
+SQLAlchemy==2.0.51
+psycopg2-binary==2.9.12
+
+# Web application
+fastapi==0.138.0
+uvicorn==0.35.0
+python-multipart==0.0.20
+python-dotenv==1.1.1
+
+# Web scraping
+recipe-scrapers==15.3.2
+beautifulsoup4==4.12.3
+requests==2.31.0
+
+# Optional: For advanced parsing
+lxml==6.0.2
+
+# Testing
+pytest==8.3.5
+httpx==0.28.1

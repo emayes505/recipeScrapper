@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Pi Cookbook">
+  <rect width="512" height="512" rx="88" fill="#bb2d2a"/>
+  <circle cx="256" cy="258" r="154" fill="#f7f5ef"/>
+  <circle cx="256" cy="258" r="112" fill="none" stroke="#2f6b4f" stroke-width="20"/>
+  <path d="M166 82v154M138 82v80c0 36 56 36 56 0V82M346 82v336" fill="none" stroke="#202421" stroke-width="18" stroke-linecap="round"/>
+</svg>

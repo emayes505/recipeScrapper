@@ -1,0 +1,2 @@
+ALTER TABLE recipes ADD COLUMN IF NOT EXISTS source_url TEXT;
+ALTER TABLE recipe_ingredients ADD COLUMN IF NOT EXISTS raw_text TEXT;

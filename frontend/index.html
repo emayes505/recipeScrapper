@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#bb2d2a">
+		<title>Pi Cookbook</title>
+		<link rel="manifest" href="/manifest.json">
+		<link rel="icon" href="/icon.svg" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="/icon.svg">
+		<link rel="stylesheet" href="/app.css?v=12">
+		<script src="/app.js?v=12" defer></script>
+	</head>
+	<body>
+		<header class="app-header">
+			<a class="brand" href="/" aria-label="Pi Cookbook home">
+				<img src="/icon.svg" alt="" width="44" height="44">
+				<span>Pi Cookbook</span>
+			</a>
+			<span class="kicker">Kitchen archive</span>
+		</header>
+
+		<main>
+			<section id="collection-view">
+			<section class="page-heading" aria-labelledby="recipes-heading">
+				<div>
+					<p class="eyebrow">Collection</p>
+					<h1 id="recipes-heading">Your recipes</h1>
+				</div>
+				<p id="recipe-count" class="recipe-count" aria-live="polite"></p>
+			</section>
+
+				<div id="status" class="status" role="status" hidden></div>
+				<section id="recipe-list" class="recipe-list" aria-live="polite">
+					<p class="loading">Loading recipes...</p>
+				</section>
+			</section>
+
+			<section id="recipe-view" class="recipe-view" hidden aria-live="polite"></section>
+		</main>
+	</body>
+</html>
